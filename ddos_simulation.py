@@ -12,9 +12,9 @@ def send_ddos(ip, port, packets):
         send(packet, verbose=False)
 
 def main():
-    print("Welcome to the DDoS Simulation Tool")
+    print("MTA SA DDOS SIMULATION TOOL")
     print("NO SYSTEM IS SAFE")
-    print("Clay was here")
+    print("<<<<<WE ARE HERE>>>>>")
 
     ip = input("Enter the target IP address: ")
     port = input("Enter the target port: ")
