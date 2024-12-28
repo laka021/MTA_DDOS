@@ -16,9 +16,8 @@ def main():
     print("NO SYSTEM IS SAFE")
     print("Clay was here")
 
-    ip_port = input("Enter the target IP address and port (e.g., 51.79.249.206:22003): ")
-    ip, port = ip_port.split(':')
-
+    ip = input("Enter the target IP address: ")
+    port = input("Enter the target port: ")
     packets = input("Enter the number of packets to send: ")
 
     try:
